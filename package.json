@@ -1,0 +1,35 @@
+{
+    "name": "fast-proxy",
+    "version": "0.0.1",
+    "description": "Fastway to proxy api",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "prettier": "prettier -w ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xendit/checkout-demo.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/xendit/checkout-demo/issues"
+    },
+    "homepage": "https://github.com/xendit/checkout-demo#readme",
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
+    "dependencies": {
+        "axios": "1.6.8",
+        "body-parser": "1.20.2",
+        "dotenv": "^16.4.5",
+        "express": "4.19.2"
+    },
+    "devDependencies": {
+        "prettier": "2.1.2",
+        "pretty-quick": "^3.0.2"
+    }
+}
